@@ -1,4 +1,5 @@
 v0.0.0
+
     - Iniziare il template di "Small Meteo"
     - Implementare delle checkbox 
       per quale tipo di query si vuole fare
