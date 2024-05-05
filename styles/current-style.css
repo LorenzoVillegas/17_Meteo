@@ -6,12 +6,13 @@
   
   body{
     font-family: "Nunito",sans-serif;
-    background: #f8f8f8;
+    background-image: url('https://img.freepik.com/premium-vector/weather-forecast-thin-line-seamless-pattern-background-white-include-sun-temperature-storm-cloud-rain-snow-thunderstorm-wind-vector-illustration_287964-3787.jpg');;
   }
   
   .input{
     text-align: center;
     margin: 100px auto;
+    size: 50%;
   }
   
   input[type="submit"]{
@@ -25,8 +26,6 @@
   }
   
   .input input[type="text"]{
-    width: 600px;
-    height: 55px;
     padding: 5px 10px;
     background: #e7e7e7;
     border: none;
@@ -38,10 +37,11 @@
 
   .card{
     width: 50%;
-    background: #e7e7e7;
-    height: 40vh;
+    height: 60vh;
     margin: 50px auto;
-    border-radius: 2px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
   }
   
   
@@ -55,10 +55,12 @@
   .card h1{
     padding: 5px 0;
     text-align: center;
+    font:bolder;
   }
   
   .card p{
     text-align: center;
     margin:40px 0;
     font-size:20px;
+    font: bold;
   }
